@@ -9,6 +9,44 @@ body {
   outline: 1px dotted black;
 }
 
+/* Nav */
+nav{
+  justify-content:center;
+  justify-content: space-around;
+  font-family:'Alegreya SC';
+  font-size: 20pt;
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to bottom,red, black);
+  padding: 1em 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}  
+
+  .column{
+   height: 50%;
+    margin: 50px;
+    width: 50%;
+  }
+
+
+
 /************
 LAYOUT
 ************/
@@ -19,12 +57,7 @@ body {
   padding: 1em 0;
   
   /* CSS Grid Layout   */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em;
-}
-
+  
 header,
 footer {
   grid-column: 1 / span 5;
