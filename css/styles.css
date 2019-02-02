@@ -39,7 +39,7 @@ footer {
 .title {
   display: flex;
   justify-content: center;
-  font-size: 3em;
+  font-size: 5em;
   padding: 1em 1em;
   padding: 4px;
   margin: 5px 0;
@@ -59,7 +59,34 @@ article {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+ box-sizing: border-box;
+ margin: 50px auto;
+}
+
+.swap-on-hover{
+  display: flex;
+  position: relative;	
+	margin:  0 auto;
+	max-width: 400px;
+}
+
+.swap-on-hover img {
+  position: absolute;
+  top:0;
+  left:0;
+  overflow: hidden;
+  width: 220px;
+  height: 300px;
+}
+
+.swap-on-hover .front{
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+.swap-on-hover:hover > .front{
+  opacity: 0;
 }
 
 /* Video */
@@ -86,7 +113,7 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-  font-size: 40px;
+  font-size: 30px;
   padding: 2em 2em 2em 2em;
 }
 
@@ -133,6 +160,9 @@ footer li img {
 
 nav{
   text-align: center;
+  padding-bottom: 2em;
+  font-size: 2em;
+  justify-content: space-around;
 }
 
 nav li{
@@ -143,7 +173,7 @@ nav li{
 
 nav li a{
   
-  color: red;
+  color: maroon;
   text-decoration: none;
 }
 
@@ -161,13 +191,16 @@ nav li:hover{
     display: block;
     padding: 4px;
     margin: 5px 0;
+    font-size: .75em;
   }
   
 .title{
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 4px;
   margin: 5px 0;
+  font-size: 3em;
 }
 
 .letter{
@@ -175,15 +208,26 @@ nav li:hover{
    justify-content: center;
    align-items: center;
    padding: 0 12em;
-   margin: 5px 0;
+   margin: auto;
   }
 
 #justice{
-  font-size: 13px;
+  font-size: 14px;
 }
 #bad{
   font-size: 10px;
   justify-content: center;
    align-items: center;
+}
+
+/* Actors */
+main section { 
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 2em 2em 2em 2em;
 }
 }
