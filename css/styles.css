@@ -40,15 +40,18 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 3em;
-  
+  padding: 1em 1em;
+  padding: 4px;
+  margin: 5px 0;
 }
 
 
 .letter{
   display: flex;
   justify-content:center;
-  padding: 0 12em; 
-  font-size: 1em;
+  align-items: center;
+  padding: 1em 12em; 
+  font-size: 16px;
 }
 
 article {
@@ -83,7 +86,7 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 40px;
   padding: 2em 2em 2em 2em;
 }
 
@@ -118,7 +121,9 @@ footer li img {
 .thumbnail{
   height: 20px;
   width: 20px;
+  padding: 1em;
 }
+
 
 /* navigation */
 *{
@@ -158,9 +163,27 @@ nav li:hover{
     margin: 5px 0;
   }
   
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  margin: 5px 0;
+}
+
 .letter{
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    padding: 0 12em;
    margin: 5px 0;
   }
+
+#justice{
+  font-size: 13px;
+}
+#bad{
+  font-size: 10px;
+  justify-content: center;
+   align-items: center;
+}
 }
