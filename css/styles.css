@@ -69,12 +69,11 @@ align-items: center;
 
 }
 /* Video */
-video .center{
-
-  width: auto;
-  height: 40vh;
-  display: block;
-  margin: 0 auto;
+video{
+      height: 40vh;
+      display: block;
+      margin: 0 auto;
+      border: 5px solid maroon;
 }
 
 .mejs__currenttime, 
@@ -86,11 +85,12 @@ video .center{
   background: maroon;
 }
 
-.title5{
+h1 .title5{
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
+  padding-top: 3em;
 }
 
 p{
