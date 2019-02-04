@@ -61,14 +61,20 @@ article {
  margin: 50px auto;
 }
 
+p{
+  margin-left: auto;
+  margin-right: auto;
+display:flex;
+align-items: center;
 
+}
 /* Video */
-video {
+video .center{
+
   width: auto;
   height: 40vh;
   display: block;
   margin: 0 auto;
-  border: 5px solid maroon;
 }
 
 .mejs__currenttime, 
@@ -79,6 +85,25 @@ video {
 .mejs__time-current {
   background: maroon;
 }
+
+.title5{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+p{
+  font-family: roboto;
+  color: white;
+  font-size: 12pt;
+  }
+  
+  .center{
+    text-align: center;
+    margin: auto;
+    padding: 1em 10em 2em 10em;
+  }
 
 /* Actors */
 main section { 
