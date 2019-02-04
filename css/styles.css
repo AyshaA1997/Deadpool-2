@@ -36,21 +36,17 @@ body {
 }
 
 
+
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   height: 25vh;
 }
 
 
-.letter{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 1em 12em; 
-  font-size: 16px;
-}
+
 
 article {
   display: flex;
@@ -61,19 +57,16 @@ article {
  margin: 50px auto;
 }
 
-p{
-  margin-left: auto;
-  margin-right: auto;
-display:flex;
-align-items: center;
 
 }
 /* Video */
-video{
-      height: 40vh;
-      display: block;
-      margin: 0 auto;
-      border: 5px solid maroon;
+video {
+  width: auto;
+  height: 40vh;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid maroon;
+  padding-bottom: 3em;
 }
 
 .mejs__currenttime, 
@@ -85,25 +78,17 @@ video{
   background: maroon;
 }
 
-h1 .title5{
+.title5{
   display: flex;
   justify-content: center;
   align-content: center;
-  align-items: center;
-  padding-top: 3em;
 }
-
 p{
   font-family: roboto;
-  color: white;
-  font-size: 12pt;
-  }
-  
-  .center{
-    text-align: center;
-    margin: auto;
-    padding: 1em 10em 2em 10em;
-  }
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 
 /* Actors */
 main section { 
@@ -167,6 +152,9 @@ footer li img {
   padding: 1em;
 }
 
+.pool{
+  border: none;
+}
 
 /* navigation */
 *{
